@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 249, 249);
+  color: rgb(45, 44, 44);
+  font-family: "Roboto", sans-serif;
+  font-family: "Wix Madefor Text", sans-serif;
+  height: 1200px;
+}
+.nav {
+  background-color: rgb(29, 29, 29);
+  display: block;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.nav-bar {
+  height: 90px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-bar li:hover {
+  color: rgb(181, 43, 114);
+}
+.nav-bar li {
+  color: white;
+}
+.intro__header {
+  margin-top: 130px;
+  margin-left: 100px;
+}
+.intro__header p {
+  font-size: 13px;
+  color: rgb(133, 132, 132);
+  margin-top: 10px;
+}
+.section__1 {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 76%;
+}
+.section__1 h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 30px;
+  color: rgb(170, 40, 110);
+}
+.section__1 p {
+  font-size: 20px;
+  color: rgb(23, 23, 23);
+  font-weight: 100;
+}
+.scroller {
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.item {
+  display: inline-block;
+  width: 280px;
+
+  color: #5a5a5d;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.item img {
+  width: 100%;
+  border-radius: 14px;
+}
+.item h3 {
+  padding-top: 14px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .nav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-bar {
+    height: 80px;
+    font-size: 14px;
+  }
+  .intro__header {
+    margin-top: 90px;
+    margin-left: 45px;
+  }
+  .section__1 {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .scroller {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+}
